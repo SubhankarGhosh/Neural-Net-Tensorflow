@@ -1,3 +1,21 @@
 All the data is held in tensors
 Tensors are similar to NumPy arrays
 Fire can represent matrix multiplication, convolution, etc
+
+Single layer perceptron is a feed forward network(information always moves in one direction. it never goes back)
+Number of neurons in input layer: attributes in dataset, number of neurons in output layer: number of classes in dataset
+
+
+Types of activation functions:
+1.Threshold function
+2.Sigmoid Function
+3.Hyperbolic Tangent Function
+4.Rectified Linear Activation function (ReLU)
+5.Maxout function
+
+
+For classification tasks use a softmax function in the output layer. It will give the probability of each occurring class.
+
+Computational Graphs represents an operation
+Placeholder is a way to feed data into graphs
+feed_dict is a dictionary to feed numerical values into the graph
