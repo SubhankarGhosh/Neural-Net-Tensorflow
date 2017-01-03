@@ -19,3 +19,5 @@ For classification tasks use a softmax function in the output layer. It will giv
 Computational Graphs represents an operation
 Placeholder is a way to feed data into graphs
 feed_dict is a dictionary to feed numerical values into the graph
+
+For classification Softmax is a good activation function.
