@@ -21,3 +21,6 @@ Placeholder is a way to feed data into graphs
 feed_dict is a dictionary to feed numerical values into the graph
 
 For classification Softmax is a good activation function.
+
+Softmax:
+Y = tf.nn.softmax(tf.matmul(X,W) + b)
