@@ -24,3 +24,6 @@ For classification Softmax is a good activation function.
 
 Softmax:
 Y = tf.nn.softmax(tf.matmul(X,W) + b)
+
+TensorBoard
+tensorboard --logdir="logs"
